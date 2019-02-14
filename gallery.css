@@ -1,45 +1,67 @@
-.buttons {
-	
-}
-
 .caption {
 	font-family: Georgia;
 	font-size: 20px;
 	color: #012169;
 	background-color: #bbbcbc;
-
+	width: 100%;
+	text-align: center;
 }
 
 .slideshow {
 	border-style: double;
 	border-color: #bbbcbc;
-	padding: 4px;
-	width: 800px;
-	height: 600px;
-
-	
+	width: 670px;
+	height: 670px;
+	overflow: hidden;
+	position: relative;
 }
 
 .slide {
-	height: 600px;
-	width: 100%;
+	width: 670px;
 	position: relative;
 	transition: left 2s;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-
 .previous {
-	height: 30px;
-	width: 30px;
-	background-color: #012169;
-	font-color: #bbbcbc;
+	cursor: pointer;
+  	float: left;
+  	width: 25px;
+  	height: 40px;
+  	padding: 10px;
+  	margin-right: 5px;
+  	overflow: hidden;
+  	text-align: center;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 18px;
+  	background: #000000;
+  	opacity: 0.65;
+  	user-select: none;
 }
 
 .next {
-	height: 30px;
-	width: 30px;
-	background-color: #012169;
-	font-color: #bbbcbc;
+	cursor: pointer;
+  	float: left;
+  	width: 25px;
+  	height: 40px;
+  	padding: 10px;
+  	margin-right: 5px;
+  	overflow: hidden;
+  	text-align: center;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 18px;
+  	background: #000000;
+  	opacity: 0.65;
+  	user-select: none;
+}
+
+.image {
+	width: 100%;
+}
+
+.buttons{
+	padding-left: 22%;
 }
