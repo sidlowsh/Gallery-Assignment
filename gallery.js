@@ -41,6 +41,15 @@ $('.next').on('click', function(){
       currentImage = totalImages;
     }
   }
+  	function setImageNumber() {
+        var count = 1;
+      $(".slide").each(function(){
+          var cl = 'slide'+count;
+          $(this).addClass(cl);
+          count++;
+        });
+    }
+
 });
 
 
